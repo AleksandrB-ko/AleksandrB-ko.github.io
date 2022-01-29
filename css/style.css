@@ -1,0 +1,183 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+header{
+   position: relative; 
+}
+nav{
+    height: 51px;
+    background-color: #212121;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style: none;
+    
+    
+}
+.menu .menu_link{
+    height: 14px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+} 
+.menu .menu_items{
+    border-right: 2px dotted black ;
+    padding-right: 28px;
+    
+}
+.subheader{
+    position: absolute;
+    width: 100%; 
+    height: 84px;
+    background-color: rgba(0,0,0,.6);
+    
+}
+.subheader .subheader_logo{
+    display: block;
+    max-width: 100%;
+    margin-top: 20px;
+}
+.subheader .subheader_descr{
+    margin-top: 6px;
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.5);
+}
+.subheader .subheader_call{
+    margin-top: 19px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+    text-align:right;
+}
+.subheader .subheader_phone{
+    display: block;
+    margin-top: 8px;
+    line-height: 12px;
+    font-size: 22px;
+    text-align: right;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.subheader .subheader_btn{
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    margin-top: 19px;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.promo{
+    min-height: 800px;
+    background: url('../img/backgraund_1st.jpg') center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+.promo .promo_header{
+    line-height: 60px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+  .promo .promo_subheader{
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+  .promo .promo_descr{
+    margin-top: 23px ;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+}
+.promo .promo_btn{
+    display: block;
+    width: 259px;
+    height: 63px;
+    margin: 188px auto 135px auto;
+    box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+.adv{
+    min-height: 900px;
+    padding: 71px 0 0 65px;
+    
+}
+.adv .adv_header{
+    width: 112px;
+    height: 24px;
+    padding: 8px 11px 6px 12px;
+    background-color: #000;
+    font-size: 11px;
+    font-weight: 100;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.adv .adv_descr{
+    
+    width: 693px;
+    height: 27px;
+    margin: 38px 0 0 40px ;
+    font-size: 38px;
+    font-weight: 900;
+    text-align: center;
+    color: #222;
+    text-transform: uppercase;
+}
+.adv .adv_items{
+    display: flex;
+}
+.adv .adv_items .adv_round{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    min-width: 113px;
+    height: 113px;
+    margin-top: 50px;
+    padding: 25px 19px 22px 14px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+    
+}
+.adv .adv_items .adv_text{
+    
+    padding-left: 26px;
+    padding-right: 100px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: justify;
+    color: #202020;
+}
+.adv .adv_items .adv_text span {
+    color:rgb(0, 162, 255);
+}
